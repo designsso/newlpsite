@@ -1,0 +1,647 @@
+/* prefix css start */
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+ol,
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    color: #000000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p,
+i,
+button,
+strong,
+u,
+sub,
+sup,
+span,
+textarea,
+table tr td,
+select,
+input {
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #000;
+}
+
+h1,
+h2 {
+    font-size: 60px;
+    line-height: 72px;
+}
+
+h3,
+h4 {
+    font-size: 40px;
+    line-height: 52px;
+}
+
+h5,
+h6 {
+    font-size: 30px;
+    line-height: 42px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 23px;
+}
+
+body {
+    background-color: #fff;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+a,
+a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+img {
+    vertical-align: middle;
+}
+ 
+.form-control:focus-within,
+button:focus-within {
+    box-shadow: none !important;
+    font-family: 'Inter', sans-serif;
+}
+
+.media {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+.media-body {
+    -ms-flex: 1;
+    flex: 1;
+}
+
+/* prefix css end */
+
+
+/* common css start */
+
+.common-heading {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.common-heading h2 {
+    font-style: italic;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 54px;
+    letter-spacing: -0.01em;
+    color: #0E185F;
+    margin-bottom: 4px;
+}
+
+.common-heading p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: -0.01em;
+    color: rgba(14, 23, 95, 0.75);
+}
+
+.pa-y4 {
+    padding: 6rem 0;
+}
+
+/* common css end */
+
+
+
+/* header css start */
+.header_section {
+    padding-bottom: 10px;
+}
+
+.header_section .navbar-nav .nav-item .nav-link {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 21px;
+    color: #3E3E3E;
+    margin: 0 2rem;
+}
+
+
+.header_section .d-flex a:first-child {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.025em;
+    color: #00A2F0;
+    background: transparent;
+    border-radius: 5px;
+    display: inline-flex;
+    align-items: center;
+    padding: 8px 30px;
+    transition: all linear .2s;
+    border: 1px solid #00A2F0;
+    margin-right: 1rem;
+}
+
+.header_section .d-flex a:first-child:hover {
+    background: linear-gradient(to top right, #007cf0 0%, #00a9f0 100%) !important;
+    color: #fff !important;
+}
+
+.header_section .d-flex a:last-child {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.025em;
+    color: #fff;
+    background: linear-gradient(to top right, #007cf0 0%, #00a9f0 100%);
+    border-radius: 5px;
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 30px;
+    transition: all linear .2s;
+    border: 1px solid #1492E6;
+}
+
+.header_section .d-flex a:last-child:hover {
+    background: #fff !important;
+    color: #087DF9 !important;
+}
+
+/* header css end */
+
+
+/* hero css start */
+.hero-section {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+.hero-txt-wrap {
+    margin-top: 2.2rem;
+}
+
+.hero-txt-wrap h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 62px;
+    letter-spacing: -0.01em;
+    color: #3E3E3E;
+    margin-top: 1rem;
+}
+
+.hero-txt-wrap h1 span {
+    color: #1492E6;
+}
+
+.hero-txt-wrap p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: -0.01em;
+    color: #3E3E3E;
+    margin-top: 1rem;
+    width: 90%;
+}
+
+.hero-txt-wrap .hero_btn {
+    margin-top: 2rem;
+}
+
+.hero-txt-wrap .hero_btn a:first-child {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.025em;
+    background: linear-gradient(to top right, #007cf0 0%, #00a9f0 100%);
+    border-radius: 5px;
+    color: #FFFFFF;
+    margin-right: 1rem;
+    padding: 8px 22px;
+    border: 2px solid#00A9F0;
+    transition: all linear .3s;
+    display: inline-block;
+}
+
+
+.hero-txt-wrap .hero_btn a:first-child:hover {
+    background: transparent;
+    color: #00A9F0;
+}
+
+.hero-txt-wrap .hero_btn a:last-child {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.025em;
+    background: transparent;
+    border-radius: 5px;
+    color: #3E3E3E; 
+    padding: 8px 22px;
+    border: 2px solid transparent;
+    transition: all linear .3s;
+    display: inline-block;
+}
+
+.hero-txt-wrap .hero_btn a:last-child svg {
+    margin-left: 0.7rem;
+}
+
+.hero-txt-wrap .hero_btn a:last-child:hover {
+    background: linear-gradient(to top right, #007cf0 0%, #00a9f0 100%);
+    color: #fff;
+    border-color: #00A9F0;
+}
+
+/* hero css end */
+
+/* mission vission css start */
+.mission-vission-section {
+    background-color: #EBF6FF;
+    padding: 2rem 0;
+}
+
+.mission-txt-wrap .media {
+    align-items: center;
+}
+
+.mission-txt-wrap .media h6 {
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 500;
+    color: #3E3E3E;
+}
+
+.mission-txt-wrap .media img {
+    margin-right: 1rem;
+}
+
+.mission-txt-wrap .media p {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 300;
+    color: #3E3E3E;
+}
+
+/* mission vission css end */
+
+/* why choice us css start */
+.why-choice-us {
+    padding: 3rem 0;
+}
+
+.why-choice-us-txt {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.why-choice-us-txt h2 {
+    color: #3E3E3E;
+    font-size: 42px;
+    line-height: 52px;
+    font-weight: 700;
+}
+
+.feat-box-wrap {
+    background: linear-gradient(to top right, #007cf0 0%, #00a9f0 100%);
+    padding: 2.6rem 2rem;
+    border-radius: 16px;
+    position: relative;
+    margin-top: 2rem;
+    min-height: 226px;
+}
+
+.feat-box-wrap::before {
+    position: absolute;
+    content: "";
+    right: 33px;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    background-image: url(../images/feat-1.svg);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center right;
+}
+
+.feat-2::before {
+    background-image: url(../images/feat-2.svg);
+    background-size: 60%;
+}
+
+.feat-3::before {
+    background-image: url(../images/feat-3.svg);
+    background-size: 64%;
+}
+
+.feat-4::before {
+    background-image: url(../images/feat-4.svg);
+    background-size: 60%;
+}
+
+.feat-box-wrap h6 {
+    color: #fff;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.feat-box-wrap p {
+    color: #fff;
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 400;
+    width: 90%;
+}
+
+/* why choice us css end */
+
+
+/* pricing css start */
+.pricing-section {
+    padding: 4rem 0;
+    background-image: url(../images/plan-bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    padding-top: 14rem;
+    margin-top: -12rem;
+}
+
+.pricing-box-wrap {
+	box-shadow: 0px 3px 25px rgba(0, 0, 0, 0.07);
+	padding: 2rem 1.6rem;
+	background-color: #fff;
+	border-radius: 15px;
+	width: 90%;
+	margin: 0 auto;
+	border: 2px solid transparent;
+	transition: all linear .3s;
+}
+
+.pricing-box-wrap:hover{
+    border: 2px solid #007cf0;
+}
+
+.pricing-box-wrap span {
+    color: rgba(68, 68, 68, 0.34);
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 300;
+    display: block;
+    text-align: center;
+}
+
+.pricing-box-wrap h3 {
+    color: #444444;
+    font-size: 80px;
+    line-height: 71px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.pricing-box-wrap ul {
+    margin-top: 2rem;
+}
+
+.pricing-box-wrap ul li {
+    color: #444444;
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(112, 112, 112, 0.12);
+    padding-bottom: 1.6rem;
+    margin-bottom: 1.6rem;
+}
+
+.pricing-box-wrap ul li img {
+    margin-right: 12px;
+}
+
+.pricing-box-wrap a {
+    background: linear-gradient(to top right, #00a9f0 0%, #007cf0 100%);
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 1rem 3rem;
+    border-radius: 7px;
+    font-size: 20px;
+    color: #fff;
+    line-height: 30px;
+    font-weight: 400;
+    transition: all linear .3s;
+}
+
+.pricing-box-wrap a:hover {
+    background: linear-gradient(to top right, #007cf0 0%, #00a9f0 100%);
+}
+
+/* pricing css end */
+
+/* faq css start */
+
+.faq-section {
+    padding-bottom: 3rem;
+    padding-top: 4rem;
+    background-image: url(../images/faq-bg.svg);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: center right;
+}
+
+.faq-ask-wrap .accordion-body {
+    padding: 0;
+    background: transparent !important;
+}
+
+.faq-ask-wrap .accordion .accordion-item {
+    background: transparent !important;
+    border: 1px solid #0086F0 !important;
+    border-radius: 12px !important;
+    box-sizing: border-box;
+    margin-bottom: 1.1rem;
+
+}
+
+.faq-2 .faq-ask-wrap .accordion .accordion-item {
+    border-bottom: 2px solid #fff !important;
+}
+
+.faq-ask-wrap .accordion .accordion-item button {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    color: #fff;
+    border-radius: 10px !important;
+    background: linear-gradient(to top right, #007cf0 0%, #00a9f0 100%);
+    padding: 1.4rem;
+}
+
+.faq-2 .faq-ask-wrap .accordion .accordion-item button {
+    color: #fff !important;
+}
+
+.accordion-button::after {
+    flex-shrink: 0;
+    content: "+";
+    background-image: none;
+    transition: all linear .3s;
+    font-size: 46px;
+    color: #fff;
+}
+
+
+.faq-ask-wrap .accordion .accordion-item p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 148.52%;
+    color: #3E3E3E;
+    width: 96%;
+    margin-top: 1.3rem;
+    padding-left: 2rem;
+    padding-bottom: 1.2rem;
+}
+
+
+.accordion-body {
+    padding-top: 0;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: none;
+    transform: rotate(180deg);
+    content: "-";
+}
+
+.faq-more {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.faq-more p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 148.52%;
+    color: #0E185F;
+    margin-bottom: 1.2rem;
+}
+
+.discord-bttn,
+.faq-more a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.025em;
+    background: linear-gradient(to top right, #007cf0 0%, #00a9f0 100%);
+    border-radius: 5px;
+    color: #FFFFFF;
+    margin-right: 1rem;
+    padding: 9px 32px;
+    transition: all linear .3s;
+    display: inline-block;
+}
+
+.discord-bttn{
+    margin-right: 0;
+}
+
+.discord-bttn:hover{
+    color: #fff;
+    background: linear-gradient(to top right, #00a9f0 0%, #007cf0 100%);
+}
+
+/* faq css end */
+
+/* footer css start */
+.footer_section {
+    background: #EBF6FF;
+    padding: 3rem 0 2rem;
+}
+
+
+.ftr-links h6 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: -0.01em;
+    color: #3E3E3E;
+    margin-bottom: 1rem;
+}
+
+.ftr-links ul li a {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: -0.01em;
+    color: #444;
+    display: block;
+    margin-bottom: 1.4rem;
+}
+
+.ftr-btm-menu {
+    margin-top: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.ftr-btm-menu ul li {
+    display: inline-block;
+}
+
+.ftr-btm-menu ul li a {
+    font-style: normal;
+    font-weight: 3500;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: -0.01em;
+    color: #444;
+    display: block;
+}
+
+
+/* footer css end */
